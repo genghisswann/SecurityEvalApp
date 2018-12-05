@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StartViewController.swift
 //  SecurityEvalApp
 //
 //  Created by Kyle Matthews on 12/5/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SartViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
