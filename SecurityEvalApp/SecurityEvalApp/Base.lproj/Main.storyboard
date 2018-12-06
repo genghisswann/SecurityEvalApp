@@ -127,8 +127,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6O4-JH-JkD">
-                                <rect key="frame" x="146" y="433" width="89" height="41"/>
+                                <rect key="frame" x="79" y="433" width="216" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
                                 <state key="normal" title="SIGN IN">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -142,7 +143,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.76719835069999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Hrd-2w-foJ"/>
                     </view>
                     <connections>
@@ -198,12 +199,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mob-x4-p8P">
-                                <rect key="frame" x="132" y="433" width="118" height="41"/>
+                                <rect key="frame" x="79" y="433" width="216" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
                                 <state key="normal" title="REGISTER">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerButton:" destination="yfO-nI-3iG" eventType="touchUpInside" id="5JA-c7-Dbt"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zgt-5B-lNs">
                                 <rect key="frame" x="79" y="275" width="216" height="30"/>
@@ -213,13 +218,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.76719835069999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6jD-OF-DzC"/>
                     </view>
                     <connections>
-                        <outlet property="RI_password" destination="Zgt-5B-lNs" id="PCc-O0-yRd"/>
-                        <outlet property="RI_username" destination="FZr-Sq-a0J" id="gOg-Ef-mAL"/>
-                        <outlet property="RI_verpwd" destination="OfQ-cE-tgK" id="ifq-Ff-g7F"/>
+                        <outlet property="RI_password" destination="Zgt-5B-lNs" id="Xji-MW-87j"/>
+                        <outlet property="RI_username" destination="FZr-Sq-a0J" id="6Xr-rT-Mge"/>
+                        <outlet property="RI_verpwd" destination="OfQ-cE-tgK" id="ZOB-QK-tx6"/>
+                        <segue destination="8E0-MM-APx" kind="modal" identifier="registerSegue" id="PM9-mL-ieW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YhD-No-e3k" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -230,4 +236,7 @@
     <resources>
         <image name="220px-Embry-Riddle_Aeronautical_University_Seal" width="220" height="220"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="PM9-mL-ieW"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -17,6 +17,7 @@
 		AEF7842121B87180008192D0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7842021B87180008192D0 /* SignInViewController.swift */; };
 		AEF7842521B8721B008192D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7842421B8721B008192D0 /* HomeViewController.swift */; };
 		AEF7842721B87837008192D0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7842621B87837008192D0 /* RegisterViewController.swift */; };
+		AEF7842B21B8A10F008192D0 /* UserCreds.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7842A21B8A10F008192D0 /* UserCreds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AEF7842021B87180008192D0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		AEF7842421B8721B008192D0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AEF7842621B87837008192D0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AEF7842A21B8A10F008192D0 /* UserCreds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreds.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				AEF7842621B87837008192D0 /* RegisterViewController.swift */,
 				AEF7842421B8721B008192D0 /* HomeViewController.swift */,
 				AE2FD84921B845EB00C437B5 /* Main.storyboard */,
+				AEF7842A21B8A10F008192D0 /* UserCreds.swift */,
 				AE2FD84C21B845EC00C437B5 /* Assets.xcassets */,
 				AE2FD84E21B845EC00C437B5 /* LaunchScreen.storyboard */,
 				AE2FD85121B845EC00C437B5 /* Info.plist */,
@@ -267,6 +270,7 @@
 			files = (
 				AEF7842521B8721B008192D0 /* HomeViewController.swift in Sources */,
 				AEF7842721B87837008192D0 /* RegisterViewController.swift in Sources */,
+				AEF7842B21B8A10F008192D0 /* UserCreds.swift in Sources */,
 				AE2FD84821B845EB00C437B5 /* StartViewController.swift in Sources */,
 				AE2FD84621B845EB00C437B5 /* AppDelegate.swift in Sources */,
 				AEF7842121B87180008192D0 /* SignInViewController.swift in Sources */,
