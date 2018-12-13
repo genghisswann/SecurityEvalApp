@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE14433421C06B6B007170B6 /* RoomsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE14433321C06B6B007170B6 /* RoomsCollectionViewController.swift */; };
+		AE14433621C06DEE007170B6 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE14433521C06DEE007170B6 /* RoomCell.swift */; };
+		AE14433C21C0BBAB007170B6 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE14433B21C0BBAB007170B6 /* FormViewController.swift */; };
+		AE1DF71B21B9B1630095E65E /* UserCredentials.txt in Resources */ = {isa = PBXBuildFile; fileRef = AE1DF71A21B9B1630095E65E /* UserCredentials.txt */; };
 		AE2FD84621B845EB00C437B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2FD84521B845EB00C437B5 /* AppDelegate.swift */; };
 		AE2FD84821B845EB00C437B5 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2FD84721B845EB00C437B5 /* StartViewController.swift */; };
 		AE2FD84B21B845EB00C437B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2FD84921B845EB00C437B5 /* Main.storyboard */; };
@@ -17,7 +21,6 @@
 		AEF7842121B87180008192D0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7842021B87180008192D0 /* SignInViewController.swift */; };
 		AEF7842521B8721B008192D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7842421B8721B008192D0 /* HomeViewController.swift */; };
 		AEF7842721B87837008192D0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7842621B87837008192D0 /* RegisterViewController.swift */; };
-		AEF7842B21B8A10F008192D0 /* UserCreds.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7842A21B8A10F008192D0 /* UserCreds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE14433321C06B6B007170B6 /* RoomsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsCollectionViewController.swift; sourceTree = "<group>"; };
+		AE14433521C06DEE007170B6 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		AE14433B21C0BBAB007170B6 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		AE1DF71A21B9B1630095E65E /* UserCredentials.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserCredentials.txt; sourceTree = "<group>"; };
 		AE2FD84221B845EB00C437B5 /* SecurityEvalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecurityEvalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2FD84521B845EB00C437B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE2FD84721B845EB00C437B5 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +61,6 @@
 		AEF7842021B87180008192D0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		AEF7842421B8721B008192D0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AEF7842621B87837008192D0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		AEF7842A21B8A10F008192D0 /* UserCreds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreds.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +111,16 @@
 		AE2FD84421B845EB00C437B5 /* SecurityEvalApp */ = {
 			isa = PBXGroup;
 			children = (
+				AE14433B21C0BBAB007170B6 /* FormViewController.swift */,
 				AE2FD84521B845EB00C437B5 /* AppDelegate.swift */,
 				AE2FD84721B845EB00C437B5 /* StartViewController.swift */,
 				AEF7842021B87180008192D0 /* SignInViewController.swift */,
 				AEF7842621B87837008192D0 /* RegisterViewController.swift */,
+				AE1DF71A21B9B1630095E65E /* UserCredentials.txt */,
 				AEF7842421B8721B008192D0 /* HomeViewController.swift */,
+				AE14433321C06B6B007170B6 /* RoomsCollectionViewController.swift */,
 				AE2FD84921B845EB00C437B5 /* Main.storyboard */,
-				AEF7842A21B8A10F008192D0 /* UserCreds.swift */,
+				AE14433521C06DEE007170B6 /* RoomCell.swift */,
 				AE2FD84C21B845EC00C437B5 /* Assets.xcassets */,
 				AE2FD84E21B845EC00C437B5 /* LaunchScreen.storyboard */,
 				AE2FD85121B845EC00C437B5 /* Info.plist */,
@@ -243,6 +252,7 @@
 			files = (
 				AE2FD85021B845EC00C437B5 /* LaunchScreen.storyboard in Resources */,
 				AE2FD84D21B845EC00C437B5 /* Assets.xcassets in Resources */,
+				AE1DF71B21B9B1630095E65E /* UserCredentials.txt in Resources */,
 				AE2FD84B21B845EB00C437B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +280,11 @@
 			files = (
 				AEF7842521B8721B008192D0 /* HomeViewController.swift in Sources */,
 				AEF7842721B87837008192D0 /* RegisterViewController.swift in Sources */,
-				AEF7842B21B8A10F008192D0 /* UserCreds.swift in Sources */,
 				AE2FD84821B845EB00C437B5 /* StartViewController.swift in Sources */,
 				AE2FD84621B845EB00C437B5 /* AppDelegate.swift in Sources */,
+				AE14433421C06B6B007170B6 /* RoomsCollectionViewController.swift in Sources */,
+				AE14433621C06DEE007170B6 /* RoomCell.swift in Sources */,
+				AE14433C21C0BBAB007170B6 /* FormViewController.swift in Sources */,
 				AEF7842121B87180008192D0 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
