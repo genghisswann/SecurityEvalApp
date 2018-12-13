@@ -21,21 +21,25 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="220px-Embry-Riddle_Aeronautical_University_Seal" translatesAutoresizingMaskIntoConstraints="NO" id="n67-l1-HmO">
                                 <rect key="frame" x="77.5" y="92" width="220" height="220"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ERAU Security Evaluation App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-c2-Vs6">
-                                <rect key="frame" x="60.5" y="337" width="254.5" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ERAU Security Evaluation App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-c2-Vs6">
+                                <rect key="frame" x="16" y="386" width="343" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SchoolProtector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3KJ-vH-NqB">
+                                <rect key="frame" x="99" y="348" width="179" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5rj-c2-Vs6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1Cz-fc-wIO"/>
                             <constraint firstItem="n67-l1-HmO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="72" id="1xD-Lo-nju"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5rj-c2-Vs6" secondAttribute="bottom" constant="308" id="F08-0L-X5Y"/>
                             <constraint firstItem="n67-l1-HmO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Fqe-0X-AGW"/>
-                            <constraint firstItem="5rj-c2-Vs6" firstAttribute="top" secondItem="n67-l1-HmO" secondAttribute="bottom" constant="25" id="SjJ-D5-PIv"/>
-                            <constraint firstItem="5rj-c2-Vs6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eY5-OZ-OTo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
